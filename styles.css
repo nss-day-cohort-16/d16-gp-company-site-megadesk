@@ -1,0 +1,53 @@
+body{
+	background-image: url("images/wood.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	color: lightgray;
+}
+
+.wrapper {
+	margin: 0 auto;
+	background-color: black;
+	width: 80%;
+	height: 1100px;
+}
+
+#logo{
+	font-size: 3em;
+}
+nav {
+	text-align: center;
+	background-color: lightgray;
+	border-bottom: 5px white solid;
+	border-top: 5px white solid;
+	border-radius: 10px;
+}
+nav ul li{
+	text-transform: uppercase;
+	display: inline-block;
+	width: 15%;
+	padding: 20px 0;
+}
+nav ul li a{
+		text-decoration: none;
+}
+img {
+
+}
+h1 {
+	text-align: center;
+}
+article {
+	float: left;
+	width: 30%;
+	margin: 6px;
+	padding: 4px;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	clear: both;
+	background-color: gray;
+}
+
