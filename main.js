@@ -2,7 +2,7 @@ var productArr = [];
 
 var ballPit = {
  name: "Ball Pit Desk",
- description: "When you need a break, fall off your chair for some fun!",
+ description: "Fall off your chair for some fun!",
  price: "$799.99", 
  image: "images/ball-pit-desk.jpg",
  button: "Add to Cart"
