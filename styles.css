@@ -1,13 +1,14 @@
 body{
-	background-image: url("wood.jpg");
-	background-repeat: cover;
+	background-image: url("images/wood.jpg");
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 0;
+	color: lightgray;
 }
 
 .wrapper {
 	margin: 0 auto;
-	background-color: white;
+	background-color: black;
 	width: 80%;
 	height: 1100px;
 }
@@ -17,8 +18,10 @@ body{
 }
 nav {
 	text-align: center;
-	background-color: brown;
-	border-bottom: 5px yellow solid;
+	background-color: lightgray;
+	border-bottom: 5px white solid;
+	border-top: 5px white solid;
+	border-radius: 10px;
 }
 nav ul li{
 	text-transform: uppercase;
