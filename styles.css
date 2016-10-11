@@ -8,17 +8,24 @@ body{
 
 .wrapper {
 	margin: 0 auto;
-	background-color: black;
+	background-color: #bf8040;
 	width: 80%;
-	height: 1100px;
+	height: 100%;
 }
 
 #logo{
 	font-size: 3em;
+	margin-bottom: 20px;
+}
+#hero {
+	margin-top: 20px;
+	margin-left: 135px;
+	width: 100%;
+
 }
 nav {
 	text-align: center;
-	background-color: lightgray;
+	background-color: #006622;
 	border-bottom: 5px white solid;
 	border-top: 5px white solid;
 	border-radius: 10px;
@@ -32,22 +39,81 @@ nav ul li{
 nav ul li a{
 		text-decoration: none;
 }
-img {
 
-}
 h1 {
 	text-align: center;
 }
-article {
+.feature {
 	float: left;
 	width: 30%;
 	margin: 6px;
 	padding: 4px;
 	text-align: center;
 }
+
+div.card {
+	width: 450px;
+	height: 280px;
+	margin-left: 42px;
+	margin-bottom: 20px;
+	border: solid white 2px;
+	padding: 10px;
+	background-color: lightgray;
+	color: black;
+	font-size: 1.1em;
+}
+
+div.card p {
+	text-align: justify;
+}
+.card {
+	float: left;
+	width: 27%;
+	margin: 5px;
+}
+.newscard {
+	display: block;
+	width: 50%;
+	border: 5px solid gray;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 5px;
+}
+
 footer {
 	text-align: center;
 	clear: both;
 	background-color: gray;
+}
+.sidepic {
+	width: 90%;
+	height: 40%;
+}
+
+h1#about-heading {
+	padding-top: 0;
+	font-size: 3em;
+}
+#content {
+	text-align: center;
+	padding: 50px 10px;
+}
+
+#content h4 {
+	font-size: 1.5em;
+}
+
+.prodcard {
+	float: left;
+	width: 28%;
+	margin-left: 35px;
+	margin-bottom: 20px;
+	border: 5px solid gray;
+	border-radius: 0 30px;
+	padding-bottom: 5px;
+}
+article.prodcard img {
+ height:200px;
+ width: 200px;
 }
 

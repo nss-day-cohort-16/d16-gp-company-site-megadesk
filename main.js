@@ -102,3 +102,4 @@ for (var i = 0; i < productArr.length; i++) {
 	productElements[i].innerHTML += "<p>" + productArr[i].description + "</p>";
 	productElements[i].innerHTML += "<p>" + productArr[i].price + "</p>";
 }
+
